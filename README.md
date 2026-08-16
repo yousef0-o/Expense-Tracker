@@ -4,14 +4,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-blue.svg)](package.json)
 [![Tests](https://img.shields.io/badge/tests-15%2F15%20passing-success.svg)](test/tracker.test.js)
+[![roadmap.sh Project](https://img.shields.io/badge/roadmap.sh-Expense%20Tracker-blueviolet.svg)](https://roadmap.sh/projects/expense-tracker)
 
-A lightweight, zero-dependency command-line expense tracker application to effortlessly record, categorize, monitor, and summarize personal finances directly from your terminal.
+A lightweight, zero-dependency command-line expense tracker application to effortlessly record, categorize, monitor, and summarize personal finances directly from your terminal. Built according to the [roadmap.sh Expense Tracker Project](https://roadmap.sh/projects/expense-tracker) specification.
 
 ---
 
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
+- [Project Specification](#-project-specification)
 - [Key Features](#-key-features)
 - [Installation & Getting Started](#-installation--getting-started)
 - [Command Reference & Examples](#-command-reference--examples)
@@ -34,6 +36,16 @@ A lightweight, zero-dependency command-line expense tracker application to effor
 ## 🌟 Overview
 
 The **Expense Tracker CLI** is designed following clean architecture principles and zero external runtime dependencies. It uses modern Node.js ES modules, native JSON storage with atomic writes, and built-in formatting utilities to ensure speed, reliability, and portability across Windows, macOS, and Linux.
+
+---
+
+## 🎯 Project Specification
+
+This project is built based on the official project roadmap requirements from [roadmap.sh](https://roadmap.sh):
+
+🔗 **Project URL:** [https://roadmap.sh/projects/expense-tracker](https://roadmap.sh/projects/expense-tracker)
+
+It fulfills all core requirements, command contracts, and extended challenges including categorization, monthly budgeting, warnings, and CSV export.
 
 ---
 
