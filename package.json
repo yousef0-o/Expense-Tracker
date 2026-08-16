@@ -1,0 +1,22 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "A simple CLI expense tracker application to manage personal finances",
+  "type": "module",
+  "main": "src/tracker.js",
+  "bin": {
+    "expense-tracker": "./bin/expense-tracker.js"
+  },
+  "scripts": {
+    "start": "node bin/expense-tracker.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "cli",
+    "expense-tracker",
+    "budget",
+    "finance"
+  ],
+  "author": "",
+  "license": "MIT"
+}
